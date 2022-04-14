@@ -1,0 +1,358 @@
+body
+{
+        padding: 0;
+        margin: 0;
+        background-color: rgb(0, 128, 178);
+}
+
+.face
+{
+        width: 35%;
+        height: 60%;
+        position: absolute;
+        background-color: white;
+        border-style: solid;
+        border-width: 3px;
+        border-radius: 50% 50% 50% 50% / 35% 35% 65% 65% ;
+        left: 31.25%;
+        top: 30%;
+}
+
+.mouth
+{
+        width: 60%;
+        height: 40%;
+        position: absolute;
+        left: 20%;
+        top: 48%;
+        background-color: rgb(145, 0, 0);
+        border-radius: 50% 50% 50% 50% / 15% 15% 85% 85% ;
+        border-style: solid;
+        border-width: 3px;
+        overflow: hidden;
+}
+
+.upperlip
+{
+        width: 20%;
+        height: 30%;
+        position: absolute;
+        border-style: solid;
+        border-width: 3px;
+        border-radius: 49% 51% 46% 54% / 41% 56% 44% 59%;
+        border-left: solid transparent;
+        border-top: solid transparent;
+        transform: rotate(-27deg);
+        left: 71.7%;
+        top: 24%;
+}
+
+.upperlip:before
+{
+        content: "";
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        border-style: solid;
+        border-width: 3px;
+        border-radius: 49% 51% 46% 54% / 41% 56% 44% 59%;
+        border-left: solid transparent;
+        border-top: solid transparent;
+        transform:scaleX(-1) rotate(-40deg);
+        left: -299%;
+        top: -125%;
+}
+
+.tounge
+{
+        width: 40%;
+        height: 70%;
+        position: absolute;
+        background-color: red;
+        border-radius: 50% 50% 20% 80% / 96% 50% 50% 4% ;
+        left: 15%;
+        top: 40%;
+        transform: rotate(-30deg);
+}
+
+.tounge:before
+{
+        content: "";
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        background-color: red;
+        border-radius: 50% 50% 20% 80% / 96% 50% 50% 4% ;
+        left: 55%;
+        top: 30%;
+        transform: rotate(30deg);
+}
+
+.mustach div:nth-child(1)
+{
+        width: 3px;
+        height: 25%;
+        position: absolute;
+        background-color: black;
+        left: 49%;
+        top: 23%;
+}
+
+.mustach div:nth-child(2)
+{
+        width: 3px;
+        height: 45%;
+        position: absolute;
+        background-color: black;
+        left: 83%;
+        top: 0%;
+        transform: rotate(70deg);
+}
+
+.mustach div:nth-child(3)
+{
+        width: 3px;
+        height: 45%;
+        position: absolute;
+        background-color: black;
+        left: 87%;
+        top: 15%;
+        transform: rotate(90deg);
+}
+
+.mustach div:nth-child(4)
+{
+        width: 3px;
+        height: 45%;
+        position: absolute;
+        background-color: black;
+        left: 85%;
+        top: 30%;
+        transform: rotate(110deg);
+}
+
+.mustach div:nth-child(5)
+{
+        width: 3px;
+        height: 45%;
+        position: absolute;
+        background-color: black;
+        left: 18%;
+        top: 0%;
+        transform: rotate(-70deg);
+}
+
+.mustach div:nth-child(6)
+{
+        width: 3px;
+        height: 45%;
+        position: absolute;
+        background-color: black;
+        left: 15%;
+        top: 15%;
+        transform: rotate(-90deg);
+}
+
+.mustach div:nth-child(7)
+{
+        width: 3px;
+        height: 45%;
+        position: absolute;
+        background-color: black;
+        left: 17%;
+        top: 30%;
+        transform: rotate(-110deg);
+}
+
+.eye
+{
+        width: 8.5%;
+        height: 25%;
+        background-color: white;
+        position: absolute;
+        border-radius: 45%;
+        color: black;
+        border-style: solid;
+        border-width: 3px;
+        left: 40%;
+        top: 20%;
+}
+
+.eye:before
+{
+        content: "";
+        width: 25%;
+        height: 30%;
+        position: absolute;
+        background-color: black;
+        left: 55%; 
+        top: 45%;
+        border-radius: 50%;
+}
+
+.eye:after
+{
+        content: "";
+        width: 8%;
+        height: 8%;
+        position: absolute;
+        background-color: white;
+        left: 65%;
+        top: 60%;
+        border-radius: 50%;
+}
+
+.eye1
+{
+        width: 8.5%;
+        height: 25%;
+        background-color: white;
+        position: absolute;
+        border-radius: 45%;
+        color: black;
+        border-style: solid;
+        border-width: 3px;
+        left: 48.7%;
+        top: 20%;
+        transform: scaleX(-1);
+}
+
+.eye1:before
+{
+        content: "";
+        width: 25%;
+        height: 30%;
+        position: absolute;
+        background-color: black;
+        left: 55%; 
+        top: 45%;
+        border-radius: 50%;
+}
+
+.eye1:after
+{
+        content: "";
+        width: 8%;
+        height: 8%;
+        position: absolute;
+        background-color: white;
+        left: 65%;
+        top: 60%;
+        border-radius: 50%;
+}
+
+.nose
+{
+        width: 5%;
+        height: 11%;
+        position: absolute;
+        background-color: red;
+        border-radius: 50%;
+        border-style: solid;
+        border-width: 3px;
+        left: 46%;
+        top: 40%;
+        overflow: hidden;
+}
+
+.noseshadow:before 
+{
+        content: "";
+        width:40%;
+        height: 40%;
+        position: absolute;
+        background-color: white;
+        left: -10%;
+        top: -15% ;
+        border-radius: 50%;
+}
+
+.noseshadow
+{
+        content: "";
+        width: 80%;
+        height: 80%;
+        position: absolute;
+        background-color: rgba(134, 0, 0, 0.683);
+        border-radius: 50%;
+        left: 25%;
+        top: 35%;
+}
+
+.neckbelt
+{
+        width: 30%;
+        height: 5%;
+        position: absolute;
+        background-color: red;
+        left: 33.5%;
+        top: 87%;
+        border-style: solid;
+        border-width: 3px;
+        border-radius: 50px;
+}
+
+.bell
+{
+        width: 7%;
+        height: 15%;
+        position: absolute;
+        background-color: rgb(255, 205, 22);
+        border-radius: 48%;
+        border-style: solid;
+        border-width: 3px;
+        overflow: hidden;
+        left: 45%;
+        top: 90%;
+}
+
+.bell::before
+{
+        content: "";
+        width: 120%;
+        height: 100%;
+        position: absolute;
+        border-radius: 50%;
+        border-style: solid;
+        top: 15%;
+        left: -5%;
+}
+
+.bell::after
+{
+        content: "";
+        width: 120%;
+        height: 100%;
+        position: absolute;
+        border-radius: 50%;
+        border-style: solid;
+        top: 30%;
+        left: -2.5%;
+}
+
+.bell div:nth-child(1)
+{
+        width: 25%;
+        height: 25%;
+        position: absolute;
+        border-radius: 50%;
+        border-style: solid;
+        background-color: rgb(222, 140, 0);
+        top: 50%;
+        left: 40%;
+}
+
+.bell div:nth-child(2)
+{
+        width: 25%;
+        height: 32%;
+        position: absolute;
+        border-radius: 50%;
+        border-style: solid;
+        top: 72%;
+        left: 33%;
+        border-bottom: solid transparent;
+        border-top: solid transparent;
+        border-left: solid transparent;
+        transform: rotate(-9odeg);
+}
